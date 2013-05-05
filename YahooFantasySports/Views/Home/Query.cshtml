@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Query";
+}
+
+<h2>Query</h2>
+
+@using (Html.BeginForm("query", "Home"))
+{
+    <span>http://fantasysports.yahooapis.com/fantasy/v2/</span><input type="text" name="text" value="" id="text" />
+    <br />
+    <input type="submit" name="query" value="Execute Query" id="query" />
+}
+
+<p>@ViewBag.Message</p>
