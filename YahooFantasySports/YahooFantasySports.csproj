@@ -198,6 +198,7 @@
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\IYahooFantasySportsService.cs" />
     <Compile Include="Session\ISessionHelper.cs" />
     <Compile Include="Session\SessionHelper.cs" />
     <Compile Include="YahooHelper.cs" />
@@ -260,6 +261,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="oAuth.keys.config" />
+    <Content Include="README.md" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />

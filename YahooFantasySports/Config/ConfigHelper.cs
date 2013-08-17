@@ -4,7 +4,7 @@ namespace YahooFantasySports.Config
 {
     public static class ConfigHelper
     {
-        public static class Yahoo
+        public class Yahoo
         {
             public static string RequestUrl
             {
@@ -40,7 +40,10 @@ namespace YahooFantasySports.Config
 
             public static OAuthConfiguration OAuth
             {
-                get { return _oAuthConfig; }
+                get 
+                { 
+                    return _oAuthConfig; 
+                }
             }
         }
 
